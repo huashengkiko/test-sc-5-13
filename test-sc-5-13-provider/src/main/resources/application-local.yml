@@ -1,0 +1,14 @@
+eureka:
+  client:
+    enabled: false
+    fetch-registry: true
+    register-with-eureka: false
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: 127.0.0.1
+    port: '6379'
